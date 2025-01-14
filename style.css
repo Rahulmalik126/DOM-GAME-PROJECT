@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(133, 133, 247);
+    gap: 2rem;
+  }
+  .header {
+    display: flex;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bolder;
+    background: linear-gradient(rgb(248, 197, 103)0% ,orange 50%);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0.1rem 1rem 0.1rem gray;
+    position: relative;
+    color:  rgb(151, 70, 4);
+  }
+  .header > a {
+    position: absolute;
+    top: 3.2rem;
+    right: 18%;
+    text-decoration: none;
+    color:  rgb(151, 70, 4);
+    transform: scale(1.5);
+  }
+  .rowFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 38rem;
+  }
+  .block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:22%;
+    height: 22%;
+    margin-bottom: 1rem;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item, .front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:7rem;
+    height: 7rem;
+    backface-visibility: hidden;
+  }
+  .item{
+    position: absolute;
+    z-index: -1;
+    top:0;
+    transform: scale(1.2);
+    transform: rotateY(180deg) ;
+  }
+  .moves{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(151, 70, 4);
+    background: linear-gradient(rgb(248, 197, 103)0% ,orange 50%);
+    left: 2rem;
+    top:10.2rem;
+    border-radius: 0.4rem;
+    padding:0.3rem 0.7rem;
+    width: 9rem;
+  }
+  .timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(151, 70, 4);
+    background: linear-gradient(rgb(248, 197, 103)0% ,orange 50%);
+    right: 2rem;
+    top:10.2rem;
+    border-radius: 0.4rem;
+    padding:0.3rem 0.7rem;
+    width: 10rem;
+  }
+  .reset{
+    display: flex;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(151, 70, 4);
+    background: linear-gradient(rgb(248, 197, 103)0% ,orange 50%);
+    border-radius: 0.4rem;
+    padding:0.3rem 0.7rem;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  
