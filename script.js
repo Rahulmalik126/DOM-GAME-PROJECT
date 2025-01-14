@@ -64,6 +64,11 @@ container.addEventListener("click", (event) => {
             block.style.transform = "rotateY(0deg)";
           });
         } else {
+            let wrong = document.querySelectorAll(`[number="${prev}"]`);
+          Array.from(wrong).forEach((block) => {
+            block.style.background = "linear-gradient(rgb(248, 197, 103) 0%, orange 50%)";
+            block.style.borderRadius="0.3rem";
+          });
           counter++;
           console.log(`out ${counter}`);
           if (counter === 8) {
