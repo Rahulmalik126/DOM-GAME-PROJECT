@@ -3,10 +3,12 @@
 ## [Visit the project](https://roaring-puffpuff-f1bdab.netlify.app/)
 
 
-![Website Screenshot](./WebsiteScreenshot.png)
+<img src="./WebsiteScreenshot.png" height="500" />
 
 
 This is a web-based card matching game where players have to find pairs of identical cards. The game includes a move counter to track the number of moves taken and a timer to measure how long it takes to find all the matching pairs.
+
+<img src="./patternmatched.png" height="500" />
 
 ## Features
 
